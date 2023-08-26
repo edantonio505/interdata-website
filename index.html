@@ -1,0 +1,175 @@
+<html>
+    <head>
+        <title>
+            Inter Data Website
+        </title>        
+
+        <style>
+            /* import font */
+            @font-face {
+                font-family: 'nerdfont-regular';
+                src: url('./fonts/3270NerdFont-Regular.ttf') format('truetype');
+            }
+
+            * {
+                padding: 0px;
+                margin: 0px;
+                font-family: 'nerdfont-regular';
+            }   
+            
+            .landing-window {   
+                height: 600px;
+                width: 100%;
+                background-color: black;
+            }
+
+            p {
+            
+                color: white;
+                font-size: 20px;
+            }
+
+            .info1-container {
+                width: 600px;
+            }
+
+
+            .info1-container p {
+                color: rgb(29, 216, 29);
+                font-size: 30px;
+            }
+            .info1-container a {
+                color: white;
+            }
+
+            .center {
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .desafio-info {
+                color: black;
+            }
+
+            .desafio {
+                margin-top: 50px;
+                width: 700px;
+            }
+
+            .videos {
+                width:700px;
+                /* background-color: black; */
+                margin: 0 auto;
+            }   
+
+            .video {
+                width: 600px;
+                height: 400px;
+                /* background-color: white; */
+                margin: 0 auto;
+                border: 0px transparent none !important;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            .center-vertical {
+                position: relative;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, 0%);
+            }
+
+            .section-3 {
+                margin-top: 30px;
+                height: 500px;
+                width: 100%;
+                background-color: rgb(28, 38, 39);
+            }   
+
+            .articulos {
+                color: white;
+                text-align: center;
+            }
+
+            .articulos-container {
+                padding: 25px;
+                width: 80%;
+            }
+
+            .articulos-container p {
+                color: white;
+                font-size: 20px;
+                margin-top: 20px;
+            }
+        </style>
+
+
+    </head>    
+    <body>  
+
+        <section>
+            <div class="landing-window">
+                <div class="info1-container center">
+                    <p>Somos una comunidad interesada que aprendas a programar desde cero, mejorar tus habilidades de programacion con tutoriales y desafios y hacer amigos con tus mismos intereses.
+                        Que esperas? Unete a nuestra comunidad haciendo <a href="https://discord.gg/hgXxfMjx">click aqui</a></p>
+                </div>
+            </div>
+            
+        </section>
+        
+
+        <section>
+            <!-- here antoher section    -->
+
+            <div class="desafio center">
+                <p class="desafio-info">
+                        Todos los sabados un miembro distinto de la comunidad
+recibe un desafio que debe realizar en el stream
+                </p>
+            </div>
+            <div id="videos" class="videos">
+            </div>      
+        </section>
+
+
+
+
+        <section>
+            <div class="section-3 ">
+                <div class="articulos-container center-vertical">
+                    <h1 class="articulos">Articulos</h1>
+
+                    <p>
+                        Plataforma de Colaboración Comunitaria: Desarrollar una plataforma en línea que facilite la comunicación y colaboración entre los miembros de la comunidad. Esta plataforma podría incluir foros de discusión, espacios para compartir recursos y eventos, y herramientas para la planificación de proyectos comunitarios.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- scripts -->
+        <script>
+            lista_de_video = ["mZjmkCjb26o", "0OP8YUOaZYY"]
+            videos = document.getElementById("videos");
+
+            for (let index = 0; index < lista_de_video.length; index++) {
+                const element = lista_de_video[index];
+                video_element = "<iframe class='video center-vertical' src='https://www.youtube.com/embed/"+element+"'></iframe>"
+                videos.innerHTML += video_element;
+            }
+
+        </script>
+    </body>
+</html> 
