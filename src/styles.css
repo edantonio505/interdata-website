@@ -1,0 +1,154 @@
+ /* import font */
+ @font-face {
+    font-family: 'nerdfont-regular';
+    src: url('../fonts/3270NerdFont-Regular.ttf') format('truetype');
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'nerdfont-regular';
+}   
+
+.landing-window {   
+    height: 600px;
+    width: 100%;
+    background-color: black;
+}
+
+p {
+
+    color: white;
+    font-size: 20px;
+}
+
+.info1-container {
+    width: 600px;
+}
+
+
+.info1-container p {
+    color: rgb(29, 216, 29);
+    font-size: 30px;
+}
+.info1-container a {
+    color: white;
+}
+
+.center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.desafio-info {
+    color: black;
+}
+
+.desafio {
+    margin-top: 50px;
+    width: 700px;
+}
+
+.videos {
+    width:700px;
+    /* background-color: black; */
+    margin: 0 auto;
+}   
+
+.video {
+    width: 600px;
+    height: 400px;
+    /* background-color: white; */
+    margin: 0 auto;
+    border: 0px transparent none !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.center-vertical {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.section-3 {
+    margin-top: 30px;
+    height: 500px;
+    width: 100%;
+    background-color: #111414;
+}   
+
+.articulos {
+    color: #b0f3b5;
+    text-align: center;
+}
+
+.articulos-container {
+    padding: 25px;
+    width: 80%;
+}
+
+.articulos-container p {
+    color: #b0f3b5;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+}
+
+.menu {
+    height: 100%;
+    width: 500px;
+    position: relative;
+    right: 0px;
+    float: right;
+    /* background-color: blue; */
+}
+
+.menu-container {
+    padding-top: 10px;
+}
+
+.menu button {
+    background-color: transparent;
+    border: 1px  solid white !important;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.menu button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.desafios-titulo {
+    text-align: center;
+}
+
+
+.footer {
+    width: 80%;
+    color: white;
+    margin-top: 50px;
+}
+
+.lista-de-proyectos {
+    color: white;
+    margin-left: 25px;
+}
+
+.lista-de-proyectos a {
+    color: white;
+}
