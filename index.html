@@ -2,22 +2,30 @@
 <html>
     <head>
         <title>
-            Inter Data Website
+            Comunidad InterData
         </title>        
         <link rel="stylesheet" href="src/styles.css">
+        
     </head>    
     <body>  
         <section>
             <div class="landing-window">
                 <div class="nav">
+                    <h2 class="logo">InterData</h2>
+                    <div class="caret"></div>
+
                     <div class="menu">
                         <div class="menu-container">
                             <button 
-                                onclick="scroll_to('inicio')"
+                                id="inicio"
+                                onclick="
+                                    // scroll to top
+                                    window.scrollTo(0, 0);
+                                "
                             >inicio</button>
                             <button
-                                onclick="scroll_to('desafio')"
-                            >desafio</button>
+                                onclick="scroll_to('desafios')"
+                            >desafios</button>
                             <button
                                 onclick="scroll_to('articulo')"
                             >articulos</button>
@@ -25,9 +33,8 @@
                     </div>
                 </div>
                 
-                <div class="info1-container center">
-                    <p>Somos una comunidad interesada que aprendas a programar desde cero, mejorar tus habilidades de programacion con tutoriales y desafios y hacer amigos con tus mismos intereses.
-                        Que esperas? Unete a nuestra comunidad haciendo <a href="https://discord.gg/hgXxfMjx">click aqui</a></p>
+                <div class="info1-container center" >
+                    <p id="intro"></p>
                 </div>
             </div>
         </section>
@@ -36,9 +43,9 @@
         <section>
             <!-- here antoher section    -->
             <div class="desafio center">
-                <h1 id="desafio" class="desafios-titulo">Desafios</h1>
+                <h1 id="desafios" class="desafios-titulo">Desafios</h1>
 
-                <p class="desafio-info">
+                <p class="desafio-info center-vertical">
                         Todos los sabados un miembro distinto de la comunidad
 recibe un desafio que debe realizar en el stream
                 </p>
@@ -58,7 +65,7 @@ recibe un desafio que debe realizar en el stream
                 </div>
 
                 <div class="footer center-vertical">
-                    <h2>List de Proyectos trabajados</h2>         
+                    <h2>Lista de Proyectos trabajados</h2>         
                     <div id="proyectos">
                         <ul id="lista-de-proyectos" class="lista-de-proyectos">
                             <!-- <li>proyecto</li> -->
@@ -69,6 +76,7 @@ recibe un desafio que debe realizar en el stream
         </section>
 
         <!-- scripts -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
         <script src="src/main.js"></script>
     </body>
 </html> 
