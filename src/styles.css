@@ -309,11 +309,4 @@ i {
     right: 20px;
   }
 
-
-
-  /* do not allow resizing zoom*/
-    body {
-        touch-action: none;
-    }
-
 }
