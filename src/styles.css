@@ -274,9 +274,6 @@ i {
     height: 200px !important;
   }
 
-  iframe {
-    height: 
-  }
 
   .section-3 {
     height: auto;
@@ -311,5 +308,12 @@ i {
     bottom: 20px;
     right: 20px;
   }
+
+
+
+  /* do not allow resizing zoom*/
+    body {
+        touch-action: none;
+    }
 
 }
