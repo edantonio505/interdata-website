@@ -30,7 +30,9 @@ p {
 .info1-container p {
     color: rgb(29, 216, 29);
     font-size: 30px;
+    text-shadow: 0 0 10px rgb(55, 226, 55);`
 }
+
 .info1-container a {
     color: white;
 }

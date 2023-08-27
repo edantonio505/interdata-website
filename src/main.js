@@ -18,7 +18,7 @@ for (let index = 0; index < lista_de_video.length; index++) {
 for (let index = 0; index < lista_projects.length; index++) {
     const element = lista_projects[index];
     proyectos = document.getElementById("lista-de-proyectos");
-    proyectos.innerHTML += "<li><a href='"+element+"'>"+element+"</a></li>";
+    proyectos.innerHTML += "<li><a href='"+element+"' target='_blank' rel='noopener noreferrer'>"+element+"</a></li>";
 }
 
 function scroll_to(id) {
