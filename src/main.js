@@ -1,4 +1,4 @@
-lista_de_video = ["mZjmkCjb26o", "0OP8YUOaZYY"]
+lista_de_video = ["mZjmkCjb26o", "0OP8YUOaZYY", "6RwfasdC40Y"]
 
 lista_projects = [
     "https://github.com/edantonio505/interdata-website",
@@ -15,21 +15,16 @@ for (let index = 0; index < lista_de_video.length; index++) {
     videos.innerHTML += video_element;
 }   
 
-
-
-
 for (let index = 0; index < lista_projects.length; index++) {
     const element = lista_projects[index];
     proyectos = document.getElementById("lista-de-proyectos");
     proyectos.innerHTML += "<li><a href='"+element+"'>"+element+"</a></li>";
 }
 
-
 function scroll_to(id) {
     var element = document.getElementById(id);
     element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 }
-
 
 sentenceIntro = "Somos una comunidad interesada que aprendas a programar desde cero, mejorar tus habilidades de programacion con tutoriales y desafios y hacer amigos con tus mismos intereses.Que esperas? Unete a nuestra comunidad haciendo <a href='https://discord.gg/hgXxfMjx'>click aqui</a>"
 

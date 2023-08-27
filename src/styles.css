@@ -174,6 +174,35 @@ p {
 }
 
 
+.go-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 70px;
+    z-index: 99;
+    border: 1px solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+.go-to-top i {
+    position: relative;
+    top: 20%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+
+
+i {
+    font-style: normal;   
+}
+
+
 /* animate caret blink */
 @keyframes blink {
     0% {
