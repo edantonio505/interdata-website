@@ -85,6 +85,7 @@ p {
     width:700px;
     /* background-color: black; */
     margin: 0 auto;
+    margin-top: -50px;
 }   
 
 .video {
@@ -287,14 +288,16 @@ i {
   }
 
   .desafio {
-    padding-top: 100px;
+    padding-top: 150px;
     /* background-color: white; */
   }
 
   .videos {
     width: auto;
     overflow-x: hidden;
+    margin-top: -150px;
   }
+  
   .video {
     width: 300px;
     height: 200px !important;
