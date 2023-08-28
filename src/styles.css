@@ -253,7 +253,6 @@ i {
   .landing-window{
     height: 100vh;
     width: 100%;
-    background-color: black;
   }
 
   .logo {
@@ -337,5 +336,4 @@ i {
     bottom: 20px;
     right: 20px;
   }
-
 }
