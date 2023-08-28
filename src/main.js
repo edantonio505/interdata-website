@@ -26,7 +26,7 @@ function scroll_to(id) {
     element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 }
 
-sentenceIntro = "Somos una comunidad interesada que aprendas a programar desde cero, mejorar tus habilidades de programacion con tutoriales y desafios y hacer amigos con tus mismos intereses.Que esperas? Unete a nuestra comunidad haciendo <a href='https://discord.gg/hgXxfMjx'>click aqui</a>"
+sentenceIntro = "Somos una comunidad interesada que aprendas a programar desde cero, mejorar tus habilidades de programacion con tutoriales y desafios y hacer amigos con tus mismos intereses.<br><br>Que esperas? Unete a nuestra comunidad haciendo <a href='https://discord.gg/hgXxfMjx'>click aqui</a>"
 
 var typed = new Typed('#intro', {
    strings: [sentenceIntro],
