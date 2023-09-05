@@ -1,10 +1,11 @@
-lista_de_video = ["mZjmkCjb26o", "0OP8YUOaZYY", "6RwfasdC40Y"]
+lista_de_video = ["mZjmkCjb26o", "0OP8YUOaZYY", "6RwfasdC40Y", "5Yk4ed_mzsg"]
 
 lista_projects = [
     "https://github.com/edantonio505/interdata-website",
     "https://github.com/ffba97/AppCitas",
     "https://github.com/edantonio505/cortaurl",
     "https://github.com/chrisatdev/abrelatas",
+    "https://github.com/chrisatdev/stream-devops"
 ]
 
 videos = document.getElementById("videos");
