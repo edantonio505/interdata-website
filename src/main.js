@@ -1,6 +1,7 @@
-lista_de_video = ["mZjmkCjb26o", "0OP8YUOaZYY", "6RwfasdC40Y", "5Yk4ed_mzsg", "snN6SsrPC94"]
+lista_de_video = ["mZjmkCjb26o", "0OP8YUOaZYY", "6RwfasdC40Y", "5Yk4ed_mzsg", "snN6SsrPC94", "egZpuSzNWGU"]
 
 lista_projects = [
+    "https://github.com/edantonio505/ionic-app",
     "https://github.com/ffba97/introduccion-html-css",
     "https://github.com/chrisatdev/stream-devops",
     "https://github.com/edantonio505/interdata-website",
